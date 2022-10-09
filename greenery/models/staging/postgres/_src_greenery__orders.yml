@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_greenery__orders
+    description: orders
+    columns:
+      - name: order_guid
+        tests:
+          - not_null
+          - unique
