@@ -3,9 +3,9 @@
   
 ## How many users do we have? => __130 users__
 
-      ```sql
-      SELECT COUNT(DISTINCT user_id) FROM dev_db.dbt_makludo07.stg_greenery__users
-      ```
+```sql
+SELECT COUNT(DISTINCT user_id) FROM dev_db.dbt_makludo07.stg_greenery__users;
+```
       
 ## On average, how many orders do we receive per hour? => __15 orders per hour__
 
