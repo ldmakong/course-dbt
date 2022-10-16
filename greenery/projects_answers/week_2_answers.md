@@ -24,4 +24,3 @@ SELECT
   div0(SUM(has_two_plus_purchases), COUNT(DISTINCT user_guid)) AS repeat_rate
 FROM user_bucket;
 ```
-      

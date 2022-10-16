@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: dim_users
+    description: "The users data has been flattened out to include their address. In this model users are only able to have one address."
+    columns:
+      - name: user_id
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: first_name
+        description: ""
+
+      - name: last_name
+        description: ""
+
+      - name: email
+        description: ""
+
+      - name: phone_number
+        description: ""
+
+      - name: created_at
+        description: ""
+
+      - name: updated_at
+        description: ""
+
+      - name: address
+        description: ""
+
+      - name: zipcode
+        description: ""
+
+      - name: state
+        description: ""
+
+      - name: country
+        description: ""
+
+  - name: dim_products
+    description: "The data about products"
+    columns:
+      - name: product_id
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: name
+        description: ""
+
+      - name: price
+        description: ""
+
+      - name: inventory
+        description: ""
