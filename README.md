@@ -11,7 +11,7 @@ Template repository for the projects and environment of the course: Analytics en
 
 ## Week 2 project
 1. all my business question answers [here](greenery/projects_answers/week_2_answers.md)
-2. all my models DAG [here](greenery/project_answers/DAG_week2.PNG)
+2. all my models DAG [here](greenery/projects_answers/DAG_week2.PNG)
 
 
 > Please note that this sets some environment variables so if you create some new terminals please load them again.
