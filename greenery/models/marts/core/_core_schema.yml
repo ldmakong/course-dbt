@@ -48,7 +48,7 @@ models:
         tests:
           - unique
           - not_null
-
+      
       - name: name
         description: ""
 
@@ -56,4 +56,19 @@ models:
         description: ""
 
       - name: inventory
+        description: ""
+
+      - name: average_daily_orders
+        description: ""
+
+      - name: total_page_view
+        description: ""
+
+      - name: total_add_to_cart
+        description: ""
+
+      - name: total_checkout
+        description: ""
+
+      - name: total_product_sold
         description: ""

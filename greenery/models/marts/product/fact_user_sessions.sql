@@ -14,7 +14,7 @@ with session_length as (
 )
 
 , session_events_agg as (
-  select * from {{ref('int_session_events_agg')}}
+  select * from {{ref('int_session_events_macro_agg')}}
 )
 
 , users as (
@@ -30,7 +30,7 @@ select
   , session_events_agg.page_views
   , session_events_agg.add_to_carts
   , session_events_agg.checkouts
-  , session_events_agg.packages_shipped
+  , session_events_agg.package_shippeds
   , session_length.first_event as first_session_event
   , session_length.last_event as last_session_event
   , datediff('minute', session_length.first_event, session_length.last_event) as session_length_minutes
